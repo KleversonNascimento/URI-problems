@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Difference1007 {
+public class p1007 {
     public static void main(String[] args) throws IOException {
         final BufferedReader leitor = new BufferedReader(new InputStreamReader(System.in));
         final Integer a = Integer.valueOf(leitor.readLine());

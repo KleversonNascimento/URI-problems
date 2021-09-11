@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Area1012 {
+public class p1012 {
     public static void main(String[] args) throws IOException {
         final BufferedReader leitor = new BufferedReader(new InputStreamReader(System.in));
         final String[] numbers = leitor.readLine().split(" ");

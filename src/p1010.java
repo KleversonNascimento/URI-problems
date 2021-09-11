@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class SimpleCalculation1010 {
+public class p1010 {
     public static void main(String[] args) throws IOException {
         final BufferedReader leitor = new BufferedReader(new InputStreamReader(System.in));
         Double totalAmount = 0.0;

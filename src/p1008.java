@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Salary1008 {
+public class p1008 {
     public static void main(String[] args) throws IOException {
         final BufferedReader leitor = new BufferedReader(new InputStreamReader(System.in));
         final Integer numberOfEmployee = Integer.valueOf(leitor.readLine());

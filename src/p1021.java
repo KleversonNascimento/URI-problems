@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class BankNotesAndCoins1021 {
+public class p1021 {
     public static void main(String[] args) throws IOException {
         final BufferedReader leitor = new BufferedReader(new InputStreamReader(System.in));
         Integer[] notesAndCoins = {10000, 5000, 2000, 1000, 500, 200, 100, 50, 25, 10, 5, 1};

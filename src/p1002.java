@@ -7,14 +7,14 @@ import java.io.InputStreamReader;
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class CircleArea1002 {
+public class p1002 {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader leitor = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
         final Double PI = 3.14159;
-        final Double raio = Double.parseDouble(leitor.readLine());
-        final Double resultado = PI * (raio * raio);
-        System.out.printf("A=%.4f\n", resultado);
+        final Double radius = Double.parseDouble(scanner.readLine());
+        final Double result = PI * (radius * radius);
+        System.out.printf("A=%.4f\n", result);
     }
 
 }
